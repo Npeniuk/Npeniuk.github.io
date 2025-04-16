@@ -1,0 +1,530 @@
+/*reset all margin and padding*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header
+{
+    /*put a image in the haeder*/
+    background-image: url(../images/Garden.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10%;
+}
+/*add a nav bar*/
+.navbar ul
+{
+    list-style-type: none;
+    background-color: #557C55;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a 
+{
+    color: #F2FFE9;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+/*adds a style to the button in the nav bar*/
+.navbar .navbtn
+{
+    color: #F2FFE9;
+    background-color: #557C55;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border: none;
+}
+/*add hover to nav bar*/
+.navbar a:hover
+{
+    background-color: #A6CF98;
+}
+.navbar .navbtn:hover {
+    background-color: #A6CF98;
+}
+.navbar li
+{
+    float: left;
+}
+/*layout the body using a grid page 1*/
+.container1
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-gap: 10px 10px;
+}
+.aside1
+{
+    grid-area: 1 / 1 / 4 / 2;
+}
+.planterbox
+{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.section1
+{
+    grid-area: 2 / 2 / 4 / 3;
+}
+.article1
+{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.garden
+{
+    grid-area: 2 / 3 / 4 / 4;
+}
+.container2
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 6%;
+    grid-gap: 10px 10px;
+    justify-content: center;
+}
+.need
+{
+    grid-area: 1 / 1 / 2 / 3;
+}
+.step1
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.yukongold
+{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.step2
+{
+    grid-area: 3 / 2 / 4 / 3;
+}
+.cutpotatoes
+{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.step3
+{
+    grid-area: 4 / 1 / 5 / 2;
+}
+.prepsoil
+{
+    grid-area: 4 / 2 / 5 / 3;
+}
+.step4
+{
+    grid-area: 5 / 2 / 6 / 3;
+}
+.plantpotatoes
+{
+    grid-area: 5 / 1 / 6 / 2;
+}
+.step5
+{
+    grid-area: 6 / 1 / 7 / 2;
+}
+.watering
+{
+    grid-area: 6 / 2 / 7 / 3;
+}
+.hillingpotatoes
+{
+    grid-area: 7 / 1 / 8 /2;
+}
+.step6
+{
+    grid-area: 7 / 2 / 8 / 3;
+}
+.step7
+{
+    grid-area: 8 / 1 / 9 / 2;
+}
+.harvested
+{
+    grid-area: 8 / 2 / 9 / 3;
+}
+.container3
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: minmax(500px, auto);
+}
+.ContactUsForm
+{
+    grid-area: 1 / 1 / 2 / 2;
+}
+fieldset
+{
+    width: 100%;
+    height: 100%;
+}
+.formbtn
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.textbox
+{
+    height: 50%;
+}
+/*style the article*/
+.article1, 
+.step1, 
+.step2, 
+.step3, 
+.step4, 
+.step5, 
+.step6, 
+.step7
+{
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #FAEDCE;
+}
+/*This is for the aside on both pages 1 and 2*/
+aside
+{
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #FAEDCE;
+}
+aside, 
+h1, 
+ul, 
+h3, 
+p, 
+article, 
+section
+{
+    padding: 3%;
+}
+.section1
+{
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #FAEDCE;
+}
+/*style the images*/ 
+.planterbox img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.yukongold img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.cutpotatoes img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.prepsoil img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.plantpotatoes img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.garden img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.hillingpotatoes img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.harvested img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.wateringvideo
+{
+    border-radius: 10px;
+    width: 100%;
+}
+/*add background color to body*/
+body
+{
+    background-color: #FEFAE0;
+}
+/*change the font in the footer*/
+footer
+{
+    font-style: italic;
+    margin: 1px;
+}
+textarea
+{
+    height: 100%;
+    width: 100%;
+}
+.textbox
+{
+    width: 90%;
+}
+.formtitle, .name, .email, .textbox
+{
+    margin: 5px;
+}
+.submit
+{
+    background-color: #557C55;
+    color: #F2FFE9;
+}
+/*this makes it easier for smartphone users to view the website*/
+@media screen and (max-width: 600px){
+.container1
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33%;
+    grid-gap: 10px 10px;
+}
+.aside1
+{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.planterbox
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.section1
+{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.article1
+{
+    grid-area: 4 / 1 / 5 / 2;
+}
+.garden
+{
+    grid-area: 5 / 1 / 6 / 2;
+}
+.container2
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3.5%;
+    grid-gap: 10px 10px;
+}
+.need
+{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.step1
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.yukongold
+{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.step2
+{
+    grid-area: 4 / 1 / 5 / 2;
+}
+.cutpotatoes
+{
+    grid-area: 5 / 1 / 6 / 2;
+}
+.step3
+{
+    grid-area: 6 / 1 / 7 / 2;
+}
+.prepsoil
+{
+    grid-area: 7 / 1 / 8 / 2;
+}
+.step4
+{
+    grid-area: 8 / 1 / 9 / 2;
+}
+.plantpotatoes
+{
+    grid-area: 9 / 1 / 10 / 2;
+}
+.step5
+{
+    grid-area: 10 / 1 / 11 / 2;
+}
+.watering
+{
+    grid-area: 11 / 1 / 12 / 2;
+}
+.hillingpotatoes
+{
+    grid-area: 12 / 1 / 13 /2;
+}
+.step6
+{
+    grid-area: 13 / 1 / 14 / 2;
+}
+.step7
+{
+    grid-area: 14 / 1 / 15 / 2;
+}
+.harvested
+{
+    grid-area: 15 / 1 / 16 / 2;
+}
+.container3
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(500px, auto);
+}
+.ContactUsForm
+{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.formbtn
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+}
+/*this makes it easier for tablet users to view the website*/
+@media screen and (min-width: 601px) and (max-width: 1250px){
+.container1
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20%;
+    grid-gap: 10px 10px;
+}
+.aside1
+{
+    grid-area: 1 / 1 / 3 / 2;
+}
+.planterbox
+{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.section1
+{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.article1
+{
+    grid-area: 3 / 2 / 4 / 3;
+}
+.garden
+{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.container2
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 6%;
+    grid-gap: 10px 10px;
+}
+.need
+{
+    grid-area: 1 / 1 / 2 / 3;
+}
+.step1
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.yukongold
+{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.step2
+{
+    grid-area: 3 / 2 / 4 / 3;
+}
+.cutpotatoes
+{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.step3
+{
+    grid-area: 4 / 1 / 5 / 2;
+}
+.prepsoil
+{
+    grid-area: 4 / 2 / 5 / 3;
+}
+.step4
+{
+    grid-area: 5 / 2 / 6 / 3;
+}
+.plantpotatoes
+{
+    grid-area: 5 / 1 / 6 / 2;
+}
+.step5
+{
+    grid-area: 6 / 1 / 7 / 2;
+}
+.watering
+{
+    grid-area: 6 / 2 / 7 / 3;
+}
+.hillingpotatoes
+{
+    grid-area: 7 / 1 / 8 /2;
+}
+.step6
+{
+    grid-area: 7 / 2 / 8 / 3;
+}
+.step7
+{
+    grid-area: 8 / 1 / 9 / 2;
+}
+.harvested
+{
+    grid-area: 8 / 2 / 9 / 3;
+}
+.container3
+{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(500px, auto);
+}
+.ContactUsForm
+{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.formbtn
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+}

@@ -1,0 +1,32 @@
+/* apply dark mode style to body*/
+body.darkmode {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+/*remove the dark mode for the text in the header as it would be difficult to see*/
+header
+{
+  color: #1e1e1e;
+}
+/* Main section styling */
+body.darkmode .article1,
+body.darkmode .aside1,
+body.darkmode .section1,
+body.darkmode .step1,
+body.darkmode .step2,
+body.darkmode .step3,
+body.darkmode .step4,
+body.darkmode .step5,
+body.darkmode .step6,
+body.darkmode .step7,
+body.darkmode .need {
+  background-color: #333333;
+  color: #f1f1f1;
+  border-color: #777;
+}
+
+/* Footer */
+body.darkmode footer {
+  color: #cccccc;
+}
+
